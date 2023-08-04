@@ -1,0 +1,52 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.todo-item{
+      --main-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D7BBF5;
+    padding: 10px;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 4px 4px var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-title{
+    display: inline-block;
+}
+
+.button-confirm {
+      --input-focus: #A076F9;
+  --font-color: #323232;
+  --font-color-sub: #212121;
+  --bg-color: #fff;
+  --main-color: #323232;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.todo-btn{
+    display: flex;
+    gap: 15px;
+}
