@@ -27,7 +27,7 @@ Check out the live preview of TaskNinja: [TaskNinja Live Preview](https://your-l
 
 1. Clone the repository:
 
-git clone [https://github.com/your-username/taskninja.git](https://github.com/shoaibhasann/TODO-App-Frontend.git)
+git clone (https://github.com/shoaibhasann/TODO-App-Frontend.git)
 
 2. Navigate to the project directory:
 
