@@ -13,16 +13,15 @@ function Header() {
     setLoading(true);
 
     try {
-      const { data } = await axios.get( `${server}/user/logout`,
-        {
-          withCredentials: true,
-        }
-      );
+      const { data } = await axios.get(`${server}/user/logout`, {
+        withCredentials: true,
+      });
       toast.success(data.message);
       setIsAuthenticated(false);
       setLoading(false);
     } catch (error) {
       toast.error(error.response.data.message);
+      console.log(error.response.data.message);
       setIsAuthenticated(true);
       setLoading(false);
     }
@@ -34,7 +33,7 @@ function Header() {
       </div>
       <ul>
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/home"}>{isAuthenticated ? 'Home' : ''}</Link>
         </li>
         <li>
           {isAuthenticated ? (
