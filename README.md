@@ -56,5 +56,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For inquiries or support, please contact:
-- Your Name: shoaibhasan0940@gmail.com
+- shoaibhasan0940@gmail.com
 - Project Repository: (https://github.com/shoaibhasann/TaskNinja-Frontend)
