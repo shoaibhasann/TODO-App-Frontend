@@ -1,0 +1,78 @@
+.landing-page{
+  --input-focus: #A076F9;
+  --font-color: #323232;
+  --font-color-sub: #212121;
+  --bg-color: #fff;
+  --primary-color: #6528f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 10px;
+}
+
+
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.landing-content h1{
+    color: #212121;
+}
+
+.landing-content p {
+    color: #323232;
+}
+
+.landing-content h2{
+    color: #212121;
+}
+
+.landing-logo{
+     width: 40%;
+}
+
+.landing-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button-55 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #6528f7;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 170px;
+}
+
+@media  only screen and (max-width:768px) {
+    .landing-page{
+        flex-direction: column;
+        padding: 0px;
+        gap: 40px;
+    }
+    .landing-content{
+        width: 90%;
+        margin: auto;
+    }
+    .landing-logo{
+        width: 90%;
+        margin: auto;
+    }
+
+}
