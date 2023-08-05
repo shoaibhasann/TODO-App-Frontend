@@ -6,7 +6,7 @@ TaskNinja is a task management web application that helps you stay organized and
 
 ## Live Preview
 
-Check out the live preview of TaskNinja: [TaskNinja Live Preview](https://your-live-preview-link.com)
+Check out the live preview of TaskNinja: [TaskNinja Live Preview](https://task-ninja-frontend.vercel.app/)
 
 ## Features
 
