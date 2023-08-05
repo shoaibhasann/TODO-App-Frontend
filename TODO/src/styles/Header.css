@@ -56,3 +56,14 @@ a{
     padding: 0.25em 0.75em;
   }
 }
+
+/* for smaller screens  */
+
+@media  only screen and (max-width: 768px) {
+  nav img{
+    width: 125px;
+  }
+  nav{
+    padding: 15px 10px;
+  }
+}
