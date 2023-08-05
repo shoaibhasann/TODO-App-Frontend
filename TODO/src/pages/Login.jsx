@@ -45,7 +45,7 @@ function Login() {
         }
       };
       if (isAuthenticated) {
-        return <Navigate to={"/"} />;
+        return <Navigate to={"/home"} />;
       }
 
   return (
