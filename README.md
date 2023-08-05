@@ -27,7 +27,7 @@ Check out the live preview of TaskNinja: [TaskNinja Live Preview](https://your-l
 
 1. Clone the repository:
 
-git clone (https://github.com/shoaibhasann/TODO-App-Frontend.git)
+git clone https://github.com/shoaibhasann/TaskNinja-Frontend.git
 
 2. Navigate to the project directory:
 
@@ -57,4 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 For inquiries or support, please contact:
 - Your Name: shoaibhasan0940@gmail.com
-- Project Repository: [GitHub](https://github.com/shoaibhasann/TODO-App-Frontend)
+- Project Repository: (https://github.com/shoaibhasann/TaskNinja-Frontend)
